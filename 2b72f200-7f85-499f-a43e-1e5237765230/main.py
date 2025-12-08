@@ -59,7 +59,7 @@ class TradingStrategy(Strategy):
         #self.tickers = []
 
         for coin, _ in top_20:
-            symbol = coin + "USD"
+            symbol = coin + "-USD"
             allocation[symbol] = 1 / len(top_20)
             #self.tickers.append(symbol)
 
